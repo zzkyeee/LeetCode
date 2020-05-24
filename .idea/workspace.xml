@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea61100-3a37-4564-8c97-82edb3afb203" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +35,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LongestCommonPrefix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ThreeSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="11" selection-start-line="11" selection-end-line="52" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,15 +70,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LongestPalindromicSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -77,8 +81,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+            <state relative-caret-position="169">
+              <caret line="1432" column="19" selection-start-line="1432" selection-start-column="19" selection-end-line="1432" selection-end-column="19" />
+              <folding>
+                <element signature="e#55800#55801#0" expanded="true" />
+                <element signature="e#55844#55845#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/ContainerWithMostWater.java" />
         <option value="$PROJECT_DIR$/src/RomanToInteger.java" />
         <option value="$PROJECT_DIR$/src/LongestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/ThreeSum.java" />
       </list>
     </option>
   </component>
@@ -178,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestCommonPrefix">
+  <component name="RunManager" selected="Application.ThreeSum">
     <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContainerWithMostWater" />
       <module name="leetcode" />
@@ -188,13 +197,6 @@
     </configuration>
     <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestCommonPrefix" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstring" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,20 +216,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreeSum" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.LongestPalindromicSubstring" />
       <item itemvalue="Application.ReverseInteger" />
       <item itemvalue="Application.ContainerWithMostWater" />
       <item itemvalue="Application.RomanToInteger" />
       <item itemvalue="Application.LongestCommonPrefix" />
+      <item itemvalue="Application.ThreeSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.ReverseInteger" />
-        <item itemvalue="Application.LongestPalindromicSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -243,12 +252,12 @@
       <updated>1589908060395</updated>
       <workItem from="1589908062075" duration="379000" />
       <workItem from="1589988719946" duration="4247000" />
-      <workItem from="1590288749823" duration="3510000" />
+      <workItem from="1590288749823" duration="5445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9068000" />
+    <option name="totallyTimeSpent" value="11003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -317,6 +326,12 @@
           <line>17</line>
           <properties />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThreeSum.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -396,13 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -414,10 +422,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="1432" column="19" selection-start-line="1432" selection-start-column="19" selection-end-line="1432" selection-end-column="19" />
+          <folding>
+            <element signature="e#55800#55801#0" expanded="true" />
+            <element signature="e#55844#55845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LongestCommonPrefix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" selection-start-line="11" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

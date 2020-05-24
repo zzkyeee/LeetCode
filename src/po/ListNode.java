@@ -1,5 +1,7 @@
 package po;
 
+import java.util.List;
+
 /**
  * Created on 2020/5/18 11:08 PM
  *
@@ -11,6 +13,17 @@ public class ListNode {
 
     public ListNode next;
 
-    public ListNode(int x) { val = x; }
+    public ListNode(int x) {
+        val = x;
+    }
 
+    public static ListNode build(List<Integer> values) {
+        ListNode dummyHead = new ListNode(0);
+        ListNode p = dummyHead;
+        for (Integer value : values) {
+            p.next = new ListNode(value);
+            p = p.next;
+        }
+        return dummyHead.next;
+    }
 }

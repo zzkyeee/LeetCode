@@ -26,4 +26,12 @@ public class ListNode {
         }
         return dummyHead.next;
     }
+
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "val=" + val +
+                ", next=" + next +
+                '}';
+    }
 }

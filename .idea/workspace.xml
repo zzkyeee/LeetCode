@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea61100-3a37-4564-8c97-82edb3afb203" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ImplementStrStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/RemoveDuplicatesFromSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/RemoveDuplicatesFromSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImplementStrStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImplementStrStr.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,20 +64,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ImplementStrStr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="144">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SearchInRotatedSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+            <state relative-caret-position="465">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -155,8 +152,8 @@
         <option value="$PROJECT_DIR$/src/GenerateParentheses.java" />
         <option value="$PROJECT_DIR$/src/MergeKSortedLists.java" />
         <option value="$PROJECT_DIR$/src/RemoveDuplicatesFromSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/ImplementStrStr.java" />
         <option value="$PROJECT_DIR$/src/SearchInRotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/ImplementStrStr.java" />
       </list>
     </option>
   </component>
@@ -214,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SearchInRotatedSortedArray">
+  <component name="RunManager" selected="Application.ImplementStrStr">
     <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenerateParentheses" />
       <module name="leetcode" />
@@ -259,8 +256,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchInRotatedSortedArray" />
         <item itemvalue="Application.ImplementStrStr" />
+        <item itemvalue="Application.SearchInRotatedSortedArray" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
         <item itemvalue="Application.MergeKSortedLists" />
         <item itemvalue="Application.GenerateParentheses" />
@@ -281,12 +278,12 @@
       <workItem from="1589988719946" duration="4247000" />
       <workItem from="1590288749823" duration="9988000" />
       <workItem from="1590415479063" duration="15654000" />
-      <workItem from="1590847984735" duration="3452000" />
+      <workItem from="1590847984735" duration="3709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34652000" />
+    <option name="totallyTimeSpent" value="34909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -388,7 +385,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ImplementStrStr.java</url>
-          <line>18</line>
+          <line>7</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
@@ -617,17 +614,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImplementStrStr.java">
+    <entry file="file://$PROJECT_DIR$/src/SearchInRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SearchInRotatedSortedArray.java">
+    <entry file="file://$PROJECT_DIR$/src/ImplementStrStr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+        <state relative-caret-position="144">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>

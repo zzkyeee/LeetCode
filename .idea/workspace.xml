@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea61100-3a37-4564-8c97-82edb3afb203" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UniquePaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JumpGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UniquePaths.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -76,6 +85,7 @@
         <option value="$PROJECT_DIR$/src/SpiralMatrix.java" />
         <option value="$PROJECT_DIR$/src/ValidSudoku.java" />
         <option value="$PROJECT_DIR$/src/JumpGame.java" />
+        <option value="$PROJECT_DIR$/src/UniquePaths.java" />
       </list>
     </option>
   </component>
@@ -133,16 +143,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JumpGame">
+  <component name="RunManager" selected="Application.UniquePaths">
     <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JumpGame" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximumSubarray" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,20 +172,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UniquePaths" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MaximumSubarray" />
       <item itemvalue="Application.MergeIntervals" />
       <item itemvalue="Application.SqrtX" />
       <item itemvalue="Application.SpiralMatrix" />
       <item itemvalue="Application.JumpGame" />
+      <item itemvalue="Application.UniquePaths" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.JumpGame" />
         <item itemvalue="Application.SpiralMatrix" />
         <item itemvalue="Application.SqrtX" />
         <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.MaximumSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -205,12 +215,12 @@
       <workItem from="1591108526592" duration="2571000" />
       <workItem from="1591191919685" duration="7000" />
       <workItem from="1591193667534" duration="2213000" />
-      <workItem from="1591364321468" duration="1034000" />
+      <workItem from="1591364321468" duration="1593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50848000" />
+    <option name="totallyTimeSpent" value="51407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -222,14 +232,14 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.46626505" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46626505" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -683,8 +693,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JumpGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UniquePaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>

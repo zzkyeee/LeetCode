@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea61100-3a37-4564-8c97-82edb3afb203" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SetMatrixZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ValidSudoku.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="525">
               <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,11 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SetMatrixZeroes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="570">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortColors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -127,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/ValidSudoku.java" />
         <option value="$PROJECT_DIR$/src/ClimbingStairs.java" />
         <option value="$PROJECT_DIR$/src/SetMatrixZeroes.java" />
+        <option value="$PROJECT_DIR$/src/SortColors.java" />
       </list>
     </option>
   </component>
@@ -136,7 +147,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -184,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClimbingStairs">
+  <component name="RunManager" selected="Application.SortColors">
     <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClimbingStairs" />
       <module name="leetcode" />
@@ -206,8 +217,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpiralMatrix" />
+    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortColors" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,19 +232,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SpiralMatrix" />
       <item itemvalue="Application.JumpGame" />
       <item itemvalue="Application.UniquePaths" />
       <item itemvalue="Application.PlusOne" />
       <item itemvalue="Application.ClimbingStairs" />
+      <item itemvalue="Application.SortColors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortColors" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.JumpGame" />
-        <item itemvalue="Application.SpiralMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -258,24 +269,25 @@
       <workItem from="1591193667534" duration="2213000" />
       <workItem from="1591364321468" duration="2509000" />
       <workItem from="1591432496824" duration="877000" />
+      <workItem from="1591522369711" duration="1058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55377000" />
+    <option name="totallyTimeSpent" value="57296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2453505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -391,6 +403,12 @@
           <line>9</line>
           <properties />
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SortColors.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -745,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ValidSudoku.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="525">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -762,8 +780,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SetMatrixZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortColors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>

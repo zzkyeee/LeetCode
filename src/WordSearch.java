@@ -26,7 +26,6 @@ public class WordSearch {
         marked = new boolean[m][n];
         this.word = word;
         this.board = board;
-        boolean res = false;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (dfs(i, j, 0)) {
@@ -44,17 +43,17 @@ public class WordSearch {
         if (index == word.length() - 1) {
             return true;
         }
+        marked[x][y] = true;
         for (int[] direction : directionArray) {
             int newX = x + direction[0];
             int newY = y + direction[1];
             if (inArea(newX, newY) && !marked[newX][newY]) {
-                marked[newX][newY] = true;
                 if (dfs(newX, newY, index + 1)) {
                     return true;
                 }
-                marked[newX][newY] = false;
             }
         }
+        marked[x][y] = false;
         return false;
     }
 

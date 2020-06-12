@@ -1,7 +1,6 @@
-import po.ListNode;
+import model.ListNode;
 
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * Created on 2020/5/26 11:35 PM

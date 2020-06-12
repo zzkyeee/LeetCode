@@ -1,4 +1,4 @@
-package po;
+package model;
 
 /**
  * Created on 2020/6/12 12:03 AM

@@ -1,4 +1,4 @@
-package po;
+package model;
 
 import java.util.List;
 

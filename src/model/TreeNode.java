@@ -1,9 +1,5 @@
 package model;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-
 /**
  * Created on 2020/6/12 12:03 AM
  *

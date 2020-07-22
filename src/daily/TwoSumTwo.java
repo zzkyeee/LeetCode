@@ -1,4 +1,4 @@
-package every.day;
+package daily;
 
 /**
  * Created on 2020/7/20 11:00 PM
